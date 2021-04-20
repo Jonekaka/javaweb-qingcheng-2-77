@@ -1,0 +1,16 @@
+0:0:0:0:0:0:0:1 - - [20/Apr/2021:11:42:10 +0800] "GET /goods/brand.html HTTP/1.1" 304 - http-bio-9101-exec-1 80
+0:0:0:0:0:0:0:1 - - [20/Apr/2021:11:42:10 +0800] "GET /css/fonts/element-icons.woff HTTP/1.1" 404 1007 http-bio-9101-exec-2 10
+0:0:0:0:0:0:0:1 - - [20/Apr/2021:11:42:11 +0800] "POST /brand/findPage.do?page=1&size=10 HTTP/1.1" 200 736 http-bio-9101-exec-3 1347
+0:0:0:0:0:0:0:1 - - [20/Apr/2021:11:42:12 +0800] "GET /goods/brand.html HTTP/1.1" 304 - http-bio-9101-exec-5 2
+0:0:0:0:0:0:0:1 - - [20/Apr/2021:11:42:13 +0800] "POST /brand/findPage.do?page=1&size=10 HTTP/1.1" 200 736 http-bio-9101-exec-6 31
+0:0:0:0:0:0:0:1 - - [20/Apr/2021:11:42:13 +0800] "GET /css/fonts/element-icons.woff HTTP/1.1" 404 1007 http-bio-9101-exec-7 1
+0:0:0:0:0:0:0:1 - - [20/Apr/2021:11:42:30 +0800] "POST /upload/oss.do?folder=brand HTTP/1.1" 200 101 http-bio-9101-exec-8 864
+0:0:0:0:0:0:0:1 - - [20/Apr/2021:11:42:40 +0800] "POST /brand/add.do HTTP/1.1" 200 35 http-bio-9101-exec-9 43
+0:0:0:0:0:0:0:1 - - [20/Apr/2021:11:42:40 +0800] "POST /brand/findPage.do?page=1&size=10 HTTP/1.1" 200 736 http-bio-9101-exec-10 27
+0:0:0:0:0:0:0:1 - - [20/Apr/2021:11:42:45 +0800] "POST /brand/findPage.do?page=1&size=10 HTTP/1.1" 200 21 http-bio-9101-exec-10 30
+0:0:0:0:0:0:0:1 - - [20/Apr/2021:11:42:52 +0800] "POST /brand/findPage.do?page=1&size=10 HTTP/1.1" 200 801 http-bio-9101-exec-10 27
+0:0:0:0:0:0:0:1 - - [20/Apr/2021:11:42:57 +0800] "POST /brand/findPage.do?page=2&size=10 HTTP/1.1" 200 929 http-bio-9101-exec-10 35
+0:0:0:0:0:0:0:1 - - [20/Apr/2021:11:43:01 +0800] "POST /brand/findPage.do?page=3&size=10 HTTP/1.1" 200 682 http-bio-9101-exec-10 30
+0:0:0:0:0:0:0:1 - - [20/Apr/2021:11:43:08 +0800] "POST /brand/findPage.do?page=3&size=10 HTTP/1.1" 200 22 http-bio-9101-exec-10 45
+0:0:0:0:0:0:0:1 - - [20/Apr/2021:11:43:10 +0800] "POST /brand/findPage.do?page=2&size=10 HTTP/1.1" 200 1059 http-bio-9101-exec-7 34
+0:0:0:0:0:0:0:1 - - [20/Apr/2021:11:43:10 +0800] "GET /goods/%7B%22code%22:1,%22message%22:%22The%20OSS%20Access%20Key%20Id%20you%20provided%20does%20not%20exist%20in%20our%20records./n[ErrorCode]:%20InvalidAccessKeyId/n[RequestId]:%20607D0797A645AE313680EA54/n[HostId]:%20qingchengdianshang.oss-cn-beijing.aliyuncs.com/n[ResponseError]:/n%3C?xml%20version=\%221.0\%22%20encoding=\%22UTF-8\%22?%3E\n%3CError%3E\n%20%20%3CCode%3EInvalidAccessKeyId%3C/Code%3E\n%20%20%3CMessage%3EThe%20OSS%20Access%20Key%20Id%20you%20provided%20does%20not%20exist%20in%20our%20records.%3C/Message%3E\n%20%20%3CRequestId%3E607D0797A645AE313680EA54%3C/RequestId%3E\n%20%20%3CHostId%3Eqingchengdianshang.oss-cn-beijing.aliyuncs.com%3C/HostId%3E\n%20%20%3COSSAccessKeyId%3EAccessKeyID%3C/OSSAccessKeyId%3E\n%3C/Error%3E\n%22} HTTP/1.1" 404 1525 http-bio-9101-exec-8 2
